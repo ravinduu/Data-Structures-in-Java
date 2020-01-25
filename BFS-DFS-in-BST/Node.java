@@ -3,11 +3,11 @@ public class Node{
   protected Node left;
   protected Node right;
   
-  public Node(char data){
+  public Node(char data){ //constructor for new node
     this.data = data;
   }
   
-  public char getData(){
+  public char getData(){ //getter for retrieve data
     return this.data;
   }
 }
